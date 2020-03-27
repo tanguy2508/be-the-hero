@@ -47,3 +47,9 @@
 .new-incident-container .content form textarea {
   margin-top: 8px;
 }
+
+.new-incident-container .content form h3{
+  margin-top: 8px;
+  color: #e02041;
+  font-size: 14px;
+}
