@@ -49,6 +49,8 @@ export default function Details() {
         <Text style={styles.incidentProperty}>CAMPAIGN:</Text>
         <Text style={styles.incidentValue}>{incident.title}</Text>
 
+        <Text style={styles.incidentProperty}>DESCRIPTION:</Text>
+        <Text style={styles.incidentValue}>{incident.description}</Text>
 
         <Text style={styles.incidentProperty}>VALUE:</Text>
         <Text style={styles.incidentValue}>

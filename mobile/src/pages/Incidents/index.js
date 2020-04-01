@@ -97,7 +97,7 @@ export default function Incidents() {
 
             <Text style={styles.incidentProperty}>CAMPAIGN:</Text>
             <Text style={styles.incidentValue}>{incident.title}</Text>
-
+            
 
             <Text style={styles.incidentProperty}>VALUE:</Text>
             <Text style={styles.incidentValue}>{Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD'}).format(incident.value)}</Text>
